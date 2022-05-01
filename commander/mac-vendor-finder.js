@@ -2,8 +2,8 @@ const { program } = require("commander");
 const axios = require("axios");
 
 function getVendor(mac) {
-    const dados = axios.get(`https://api.macvendors.com/${mac}`);
-    dados.then((data) => console.log(`Vendor: ${data.data}`));
+    const request = axios.get(`https://api.macvendors.com/${mac}`);
+    request.then((data) => console.log(`Vendor: ${data.data}`));
 }
 
 program
