@@ -1,0 +1,19 @@
+{
+  "name": "mac-vendor-finder",
+  "version": "1.0.0",
+  "description": "Search mac vendor.",
+  "main": "mac-vendor-finder.js",
+  "scripts": {
+    "start": "node mac-vendor-finder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0"
+  },
+  "devDependencies": {
+    "axios": "^0.27.2"
+  }
+}
