@@ -24,7 +24,7 @@ function main() {
                 const mac = program.args[0].split(":").join("-");
                 getVendor(mac);
             } catch (err) {
-                console.error(err.name, err.type, "no mac inserted");
+                console.error(err.name, "no mac inserted");
             }
         });
 
