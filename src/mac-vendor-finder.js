@@ -5,8 +5,8 @@ main();
 
 async function getVendor(mac) {
     try {
-        const data = await axios.get(`https://api.macvendors.com/${mac}`);
-        console.log(`Vendor: ${data.data}`);
+        const response = await axios.get(`https://api.macvendors.com/${mac}`);
+        console.log(`Vendor: ${response.data}`);
     } catch (err) {
         console.error(err);
     }
