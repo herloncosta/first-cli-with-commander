@@ -10,6 +10,7 @@
   "keywords": ["mac", "mac-vendor"],
   "author": "Herlon Costa",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "commander": "^9.2.0"
   },
