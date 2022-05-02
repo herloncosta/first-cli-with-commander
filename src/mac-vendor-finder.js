@@ -1,9 +1,13 @@
 const { program } = require("commander");
 const axios = require("axios");
 
-function getVendor(mac) {
-    const request = axios.get(`https://api.macvendors.com/${mac}`);
-    request.then((data) => console.log(`Vendor: ${data.data}`));
+async function getVendor(mac) {
+    try {
+        const data = await axios.get(`https://api.macvendors.com/${mac}`);
+        console.log(`Vendor: ${data.data}`);
+    } catch (err) {
+        console.error(err);
+    }
 }
 
 program
