@@ -1,3 +1,8 @@
 # MAC Finder CLI
 
-Implementação da minha primeira CLI, criando um sistema de consulta de fabricantes de dispositivos por meio do seu endereço MAC.
+Implementação da minha primeira CLI.
+
+## Finalidade
+
+- Verificar fabricantes de dispositivos de rede desconhecidos para facilitar a mitigação de problemas.
+- Sistema desenvolvido utilizando a lib commander.
